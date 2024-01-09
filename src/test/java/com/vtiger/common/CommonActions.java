@@ -79,9 +79,10 @@ public class CommonActions {
 		catch(Exception e)
 		{
 			System.out.println(e.getMessage());
-			logger.fail("Step failed due to "+e.getMessage()+"<span class='label end-time'><a href="+getScreenshot()+">Screenshot</a></span>");
+			logger.fail("Step failed  due to "+e.getMessage()+"<span class='label end-time'><a href="+getScreenshot()+">Screenshot</a></span>");
 		}
 	}
+	
 	
 	public void SetInput(String elm, String data,String msg)
 	{
